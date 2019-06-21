@@ -40,7 +40,7 @@ app.post('/postData', (req, res) => {
 
   //transporter for node mailer
   let transporter = nodemailer.createTransport({
-    host: 'dnadevelopers.net',
+    host: 'dnadevelopers.live',
     port: 465,
     secure: true,
     auth: {
